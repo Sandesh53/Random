@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
         btnGo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -41,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 tvOutput.setText("" +number);
                 Score=0;
 
-                tvOutputScore.setText("Score: " + Score);
+               // tvOutputScore.setText("Score: " + Score);
 
                 btnHigh.setVisibility(View.VISIBLE);
                 btnLow.setVisibility(View.VISIBLE);
